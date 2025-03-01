@@ -16,7 +16,8 @@
 • 打开解决方案文件（  .sln  ）并安装必要的 NuGet 包。
 . 运行程序：
 • 在 Visual Studio 中按   F5   或点击“运行”按钮启动应用程序。项目结构（以下目录结构需根据实际项目情况进行调整）
-WinForm-/
+
+**WinForm-/
 ├── WinFormApp/
 │   ├── Properties/
 │   ├── bin/
@@ -26,5 +27,6 @@ WinForm-/
 │   └── MainForm.Designer.cs
 ├── .gitignore
 ├── README.md
-└── WinForm-.sln
+└── WinForm-.sln**
+
 贡献指南欢迎贡献代码！请遵循以下步骤：1. Fork 本项目到你的 GitHub 账号。2. 创建一个新的分支：  git checkout -b feature/your-feature-name  。3. 提交你的更改：  git commit -m "Add some feature"  。4. 推送到你的分支：  git push origin feature/your-feature-name  。5. 提交 Pull Request。许可证本项目采用 MIT License 许可证。联系方式• 项目维护者：fantonms• 邮箱：ggs14733189@outlook.com
