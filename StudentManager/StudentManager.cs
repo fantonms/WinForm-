@@ -2,7 +2,7 @@
 
 public class StudentManager
 {
-    private List<Student> students = new List<Student>();
+    public List<Student> students = new List<Student>();
     private string filepath = "students.txt";
 
     public void addStudent(Student student)
@@ -27,14 +27,14 @@ public class StudentManager
         }
     }
 
-    public void ModifyStudent(string studentID, string newName, string gerder, int age)
+    public void ModifyStudent(string newName,  string gerder, int age,string studentID)
     {
         Student student = students.Find(s => s.Id==studentID);
         if (student != null)
         {
             student.Name = newName;
-            student.Age = age;
             student.Gender = gerder;
+            student.Age = age;
             student.Id = studentID;
             SaveStudents();
             Console.WriteLine("学生修改信息成功");

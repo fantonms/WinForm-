@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student", "Student\Student.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManager", "StudentManager\StudentManager.csproj", "{8895435C-BCB9-4E04-9673-9F7927D3724D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A6B3F183-FBB3-4BDD-BE3E-92116D607D88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainSystem", "ConsoleApp1\MainSystem.csproj", "{A6B3F183-FBB3-4BDD-BE3E-92116D607D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSystemWindow", "BankSystemWindow\BankSystemWindow.csproj", "{A51A0D04-D51F-4FC3-A1CD-271562BAA4E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A6B3F183-FBB3-4BDD-BE3E-92116D607D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6B3F183-FBB3-4BDD-BE3E-92116D607D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6B3F183-FBB3-4BDD-BE3E-92116D607D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51A0D04-D51F-4FC3-A1CD-271562BAA4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51A0D04-D51F-4FC3-A1CD-271562BAA4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51A0D04-D51F-4FC3-A1CD-271562BAA4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51A0D04-D51F-4FC3-A1CD-271562BAA4E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

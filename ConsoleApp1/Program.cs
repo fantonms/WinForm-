@@ -6,12 +6,7 @@ namespace test
 {
     class Program
     {
-        
-        
-        
-        
-        
-        
+
         
         static void Main(string[] strs)
         {
@@ -46,15 +41,15 @@ namespace test
                         studentManager.RemoveStudent(StudentID);
                         break;
                     case "3":
-                        Console.Write("输入要修改的学生学号：");
-                        string modifyID = Console.ReadLine();
-                        Console.Write("输入新的学生姓名：");
+                        Console.Write("输入要修改的学生姓名：");
                         string newName = Console.ReadLine();
                         Console.Write("输入新的学生性别：");
                         string newGender = Console.ReadLine();
                         Console.Write("输入新的学生年龄：");
-                        int newAge = int.Parse(Console.ReadLine());
-                        studentManager.ModifyStudent(modifyID, newName, newGender, newAge);
+                        string newAge = Console.ReadLine();
+                        Console.Write("输入新的学生学号：");
+                        int modifyID = int.Parse(Console.ReadLine());
+                        studentManager.ModifyStudent(newName,newGender, modifyID,newAge);
                         break;
                     case "4":
                         Console.WriteLine("输入查询关键字(学号或姓名):");
