@@ -17,16 +17,29 @@
 . 运行程序：
 • 在 Visual Studio 中按   F5   或点击“运行”按钮启动应用程序。项目结构（以下目录结构需根据实际项目情况进行调整）
 
-**WinForm-/
-├── WinFormApp/
-│   ├── Properties/
-│   ├── bin/
-│   ├── obj/
-│   ├── Program.cs
-│   ├── MainForm.cs
-│   └── MainForm.Designer.cs
-├── .gitignore
-├── README.md
-└── WinForm-.sln**
+WinForm-/
+
+├── WinFormApp/                     # 主项目文件夹
+
+│   ├── Properties/                 # 项目属性文件
+
+│   ├── bin/                        # 编译输出文件夹
+
+│   ├── obj/                        # 编译中间文件夹
+
+│   ├── Program.cs                  # 程序入口文件
+
+│   ├── MainForm.cs                 # 主窗体代码
+
+│   └── MainForm.Designer.cs        # 主窗体设计器代码
+
+├── .gitignore                      # Git 忽略文件
+
+├── README.md                       # 项目说明文件
+
+└── WinForm-.sln                    # 解决方案文件
+
+
+
 
 贡献指南欢迎贡献代码！请遵循以下步骤：1. Fork 本项目到你的 GitHub 账号。2. 创建一个新的分支：  git checkout -b feature/your-feature-name  。3. 提交你的更改：  git commit -m "Add some feature"  。4. 推送到你的分支：  git push origin feature/your-feature-name  。5. 提交 Pull Request。许可证本项目采用 MIT License 许可证。联系方式• 项目维护者：fantonms• 邮箱：ggs14733189@outlook.com
